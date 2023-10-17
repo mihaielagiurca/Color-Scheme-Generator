@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500&family=Roboto:ital,wght@1,700&family=Young+Serif&display=swap" rel="stylesheet">
+    <link rel= "stylesheet" href="index.css" >
+    <title>Color Scheme Generator</title>
+</head>
+<body>
+    <div class="title">Color Scheme Generator</div> 
+    <div class="container">
+        <div class="header">
+            <input type="color" id="input-color" name="inputColor" value="#E82626">
+            <select name="color-scheme" id="color-scheme" class="select">
+                <option value="monochrome">Monochrome</option>
+                <option value="monochrome-dark">Monochrome-dark</option>
+                <option value="monochrome-light">Monochrome-light</option>
+                <option value="analogic">Analogic</option>
+                <option value="complement">Complement</option>
+                <option value="analogic-complement">Analogic-complement</option>
+                <option value="triad">Triad</option>
+                <option value="quad">Quad</option>
+            </select>
+            <button class="button" id="button">Get color scheme</button>
+            
+        </div>
+   
+        <div class="colorSchemeDisplay" id="color-scheme-display"> </div>
+        <div class="colorHexDisplay" id="color-hex-display"></div>
+    </div>  
+    
+</body>
+<script src="index.js"></script>
+</html>
