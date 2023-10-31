@@ -39,7 +39,7 @@ body{
 }
 .colorSchemeDisplay{
     width: 550px;
-    height: auto;
+    height: 550px;
     display: flex;
     flex-direction: row;
 }
