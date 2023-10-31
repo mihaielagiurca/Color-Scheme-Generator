@@ -39,7 +39,7 @@ body{
 }
 .colorSchemeDisplay{
     width: 550px;
-    height: 550px;
+    height: 450px;
     display: flex;
     flex-direction: row;
 }
@@ -68,7 +68,7 @@ body{
     }
     .colorSchemeDisplay{
         width: 320px;
-        height: 250px;
+        height: auto;
     }
     .colorHexDisplay{
         width: 320px;
