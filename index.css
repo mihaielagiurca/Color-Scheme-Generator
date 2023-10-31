@@ -1,7 +1,7 @@
 body{
     margin: 0;
     padding: 0;
-    background-color: #D6F5F5;   
+    background-color: black;   
 }
 .title{
     text-align: center;
@@ -9,13 +9,14 @@ body{
     margin-bottom:0px;
     font-size: 28px;
     font-family: 'Young Serif', serif;
+    color: white;
 }
 .container{
     width:550px;
     height: auto;
     background-color: aliceblue;
-    margin: 10px auto;
-    border: 2px solid black;
+    margin: 15px auto;
+ 
 }
 .header{
     background-color: white;
@@ -48,6 +49,7 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: center;
+    margin: 5px 0;
 }
 
 @media (max-width: 480px){
@@ -72,5 +74,6 @@ body{
         width: 320px;
         height: 20px;
         font-size: 10px;
+       
     }
 }
